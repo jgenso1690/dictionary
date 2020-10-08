@@ -1,0 +1,46 @@
+{
+  "name": "schoology_jimena",
+  "version": "1.0.0",
+  "description": "Steps to start the application:     1. Run 'npm init' to install all the dependencies.     2. Run 'npm run seed' to seed the database.     3. Run 'npm start'",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon server.js",
+    "build": "webpack --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/plugin-syntax-jsx": "^7.10.4",
+    "@babel/plugin-transform-runtime": "^7.11.5",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-react": "^7.10.4",
+    "@testing-library/dom": "^7.24.2",
+    "@testing-library/react": "^11.0.4",
+    "@testing-library/user-event": "^12.1.6",
+    "axios": "^0.20.0",
+    "babel-loader": "^8.1.0",
+    "curl": "^0.1.4",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.4",
+    "path": "^0.12.7",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "webpack": "^4.44.2"
+  },
+  "devDependencies": {
+    "axios-mock-adapter": "^1.18.2",
+    "eslint": "^7.9.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.20.6",
+    "eslint-plugin-react-hooks": "^4.1.2",
+    "expect": "^26.4.2",
+    "jest": "^26.4.2",
+    "webpack-cli": "^3.3.12"
+  }
+}
