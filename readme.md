@@ -1,8 +1,9 @@
-##Dictionary Autocomplete App
-#Description
-    This dictionary app allows the user to insert a word and give autocomplete options while writting. After submitting or selecting a word it will give back the definition.
+# Dictionary Autocomplete App
+## Description
+    The user can insert a word and will be able to see autocomplete options while writting.
+    After submitting or selecting a word it will give back the definition.
 
-#Steps to start the application:.
+## Steps to start the application:.
 
     Backend
     1. Run 'npm init' to install all the dependencies.
@@ -19,7 +20,7 @@
     5. Open [http://localhost:3000/](http://localhost:3000/)
     6. Look for a word of your preference, click over the word you would like to see the definition. 
 
-#Stack
+## Stack
  * Node: "10.21.0"
  * Express: "^4.17.1"
  * Axios: "^0.20.0"
@@ -28,3 +29,4 @@
  * React-dom: "^16.13.1"
  * Jest: "^26.4.2"
  * Babel-loader: "^8.1.0"
+
