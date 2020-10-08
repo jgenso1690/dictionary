@@ -1,6 +1,7 @@
 ## Dictionary Autocomplete App
 # Description
-    This dictionary app allows the user to insert a word and give autocomplete options while writting. After submitting or selecting a word it will give back the definition.
+    This dictionary app allows the user to insert a word and give autocomplete options while writting.
+    After submitting or selecting a word it will give back the definition.
 
 # Steps to start the application:.
 
